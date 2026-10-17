@@ -1,0 +1,30 @@
+REGISTRO DE SITUAÇÃO — NÃO É UMA LICENÇA MICROSOFT NEM CONCESSÃO DE DIREITOS
+
+VC Runtime 14.42.34438.0: VCRUNTIME140.dll e VCRUNTIME140_1.dll coincidem com
+os distribuídos no CPython 3.13.14 oficial. Conservar também as condições
+adicionais Microsoft do arquivo Python-LICENSE.txt. O REDIST do Visual Studio
+e sua licença condicionam o direito de distribuição; não foi demonstrado
+nesta auditoria o enquadramento/licença aplicável ao distribuidor final.
+
+UCRT/API sets 10.0.26100.4654: 43 arquivos foram coletados de um runtime
+auxiliar libheif, sem cadeia de redistribuição Microsoft comprovada. Não são
+automaticamente autorizados pela licença do libheif ou do R6-Rebuild.
+
+Windows 10+ já inclui UCRT como componente do sistema. Windows Update é a
+via preferida de manutenção; cópia local pode ser permitida com restrições,
+usando os arquivos Redistributable do SDK e os termos aplicáveis. Não é
+correto afirmar que toda DLL encontrada em outro aplicativo pode ser copiada.
+VC Runtime é separado de UCRT: pode ser pré-requisito instalado via pacote
+oficial ou implantado localmente quando os termos autorizam. WebView2 Runtime
+e .NET Framework são pré-requisitos externos, não estão neste ZIP; o SDK
+WebView2 incluído tem seus próprios LICENSE/NOTICE já preservados.
+
+Fontes oficiais consultadas em 2026-10-17:
+https://learn.microsoft.com/en-us/cpp/windows/redistributing-visual-cpp-files
+https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution
+https://learn.microsoft.com/en-us/cpp/windows/universal-crt-deployment
+
+Documento necessário: licença Microsoft aplicável ao distribuidor e versão,
+REDIST pertinente e comprovação de origem autorizada dos arquivos UCRT,
+ou decisão autorizada por uma implantação que use pré-requisitos oficiais.
+Não foram removidas DLLs, instalados componentes ou aceitos termos.

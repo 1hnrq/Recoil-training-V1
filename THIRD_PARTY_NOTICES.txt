@@ -59,6 +59,11 @@ UCRT e api-ms-win*.dll - 10.0.26100.4654.
 Componentes proprietários Microsoft. A coleta local do build não demonstra por
 si só direitos de redistribuição. Verificar termos de Distributable Code e a
 origem em redistribuível/SDK autorizado. Não são cobertos pela MIT do projeto.
+Correção de proveniência: os 43 arquivos UCRT/API sets vieram do diretório
+native/libheif/bin de um runtime auxiliar das ferramentas, NÃO do System32.
+Os dois VCRUNTIME vieram da instalação Python e coincidem por SHA-256 com
+o ZIP embeddable oficial CPython 3.13.14. Esse match resolve a procedência,
+mas não dispensa as condições Microsoft de redistribuição.
 Referência oficial: https://learn.microsoft.com/en-us/cpp/windows/universal-crt-deployment
 O REDIST oficial do Visual Studio 2022 condiciona a distribuição a uma cópia
 validamente licenciada e aos respectivos termos; não basta possuir os DLLs.
@@ -76,6 +81,15 @@ Conservar os avisos e condições integrais. Não aplicar a licença de ferramen
 xz GPL a liblzma indiscriminadamente; componentes diferem.
 Referência: https://github.com/python/cpython/blob/v3.13.14/PCbuild/get_externals.bat
 Falta fechar a composição nativa estática de _cffi_backend e demais extensões.
+Atualização do inventário: 23 binários coincidem com o ZIP embeddable oficial
+do CPython; ClrLoader x86/x64 e Python.Runtime coincidem com suas wheels oficiais.
+Não existem binários locais sem grupo de origem no inventário final: são
+23 da instalação Python, 11 de wheels, 43 UCRT/API sets do runtime auxiliar
+e o EXE próprio. As condições Microsoft continuam sendo bloqueio do pacote.
+Expat 2.8.1, zlib 1.3.1, mpdecimal 4.0.0 e OpenSSL 3.0.21 foram confirmados
+pelos módulos da instalação Python correspondentes aos binários verificados.
+Expat: MIT, aviso integral em licenses/Expat-CPython-3.13.14/COPYING.
+https://github.com/python/cpython/blob/v3.13.14/Modules/expat/COPYING
 O _cffi_backend distribuído coincide por SHA-256 com a wheel oficial cffi
 2.1.1 cp313-win_amd64. Texto MIT-0 dessa wheel e sdist incluídos; a origem do
 binário foi confirmada, mas não deve ser confundida com a confirmação de toda
