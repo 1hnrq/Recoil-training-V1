@@ -9,8 +9,6 @@ Windows continua se chamando **R6-Rebuild.exe**; o nome interno, as pastas de
 configuração e todos os controles permanecem R6-Rebuild. Não renomeie o EXE
 nem a pasta `_internal` para seguir o nome do repositório.
 
-> **Publicação pendente:** esta é uma preparação local. A Release v1.0.0 e seu ZIP ainda não estão disponíveis. Consulte [os próximos passos](docs/PROXIMOS_PASSOS_PUBLICACAO.md). O novo candidato usa a logo com correntes no EXE; dependências, perfis e recursos históricos ainda têm pendências de revisão.
-
 ## Instalação
 
 Após a liberação, o repositório `Recoil-training-V1` terá a Release
