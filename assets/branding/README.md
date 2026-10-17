@@ -1,30 +1,20 @@
-# Ícone oficial
+# Identidade pública — correntes
 
-Fonte fornecida pelo responsável: `source/logomouse.png`, sem alteração dos pixels originais.
-SHA256: `0d3a6bc70915273f0dbff5bd9725639a1af277aa12c8dfea1f9d9e838c881e8f`.
+`source/logomouse.png` é agora uma cópia exata de
+`assets/public/emblema-correntes.png`, fornecida pelo responsável.
+SHA-256: `a9dda0d20d237d091caeb64129ac6f72ae662a409e29b3c68d2ad5819b26079b`.
+O nome técnico da fonte foi mantido para não alterar o conversor existente.
 
-`r6-rebuild.ico`: 16, 24, 32, 48, 64, 128 e 256 px, RGBA 32 bits,
-quadros PNG comprimidos. O fundo preto da arte foi preservado, sem transparência
-artificial, cortes ou remoção de louros/estrelas/mouse/código/número.
+`r6-rebuild.ico` tem quadros PNG RGBA de 16, 24, 32, 48, 64, 128 e 256 px,
+reduzidos diretamente da fonte por Lanczos. `preview.png` mostra os tamanhos
+nativos. Em tamanhos pequenos, detalhes finos naturalmente perdem legibilidade;
+não houve redesenho, remoção de elementos ou alteração de cores.
 
-Conversão determinística por `tools/convert_brand_icon.py`, usando Pillow 12.3.0
-do runtime de ferramentas já disponível, sem instalar dependências.
-Cada quadro é reamostrado diretamente do PNG de 1254 px com Lanczos, evitando
-reduções em cascata. `preview.png` exibe os sete tamanhos em pixels nativos.
-Detalhes do mouse/código e estrelas não podem ter a legibilidade da arte grande
-em 16 px; não foram inventadas variantes que alterariam o design solicitado.
+O PyInstaller usa o ICO como recurso do EXE. O mesmo arquivo em `_internal`
+é carregado pelo backend WinForms para janela e barra de tarefas. Não foram
+alterados caches do Explorer nem atalhos fixados.
 
-A ferramenta recusa sobrescrever os resultados. Para reproduzir, use uma cópia
-do projeto sem os arquivos de saída; a fonte é sempre somente leitura.
-Pillow não é necessário para executar o aplicativo nem é incluído no pacote.
-
-O PyInstaller incorpora o ICO no EXE e copia somente o ICO para `_internal/assets/branding`.
-O backend WinForms do pywebview carrega esse mesmo arquivo como `Form.Icon`.
-A janela usa o ícone no título e como ícone de aplicativo na barra de tarefas.
-Não são criados/modificados atalhos fixados, caches do Explorer ou ajustes do Windows.
-
-Origem/autorização de uso: imagem enviada pelo usuário para esta aplicação.
-Não se atribui uma licença de redistribuição de terceiros que não tenha sido fornecida.
-
-O responsável informa que a arte deriva de uma logo antiga do jogo.
-A imagem nova com correntes não resolve a permissão de redistribuir este ícone.
+A arte anterior foi preservada em arquivo local ignorado e no histórico,
+mas não está incluída como ícone do novo candidato. Sua presença no histórico
+continua relevante para os direitos de uma futura publicação desse histórico.
+A nova imagem não é automaticamente coberta pela MIT do código.

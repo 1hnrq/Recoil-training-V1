@@ -4,7 +4,7 @@
 
 Aplicativo experimental para Windows com perfis independentes e saída de mouse simulada ou real. Projeto independente, sem vínculo ou aprovação da Ubisoft. Não contém detecção de jogo nem contorno de anticheat. Macros podem contrariar regras de jogos; não há garantia contra punições.
 
-> **Publicação pendente:** esta é uma preparação local. A Release v1.0.0 e seu ZIP ainda não estão disponíveis. Consulte [a revisão de publicação](docs/PUBLICACAO.md). A imagem nova não resolve os direitos do ícone antigo incorporado ao executável.
+> **Publicação pendente:** esta é uma preparação local. A Release v1.0.0 e seu ZIP ainda não estão disponíveis. Consulte [os próximos passos](docs/PROXIMOS_PASSOS_PUBLICACAO.md). O novo candidato usa a logo com correntes no EXE; dependências, perfis e recursos históricos ainda têm pendências de revisão.
 
 ## Instalação
 
@@ -68,4 +68,6 @@ Não há garantia de tempo real rígido, compatibilidade com jogos ou equivalên
 
 A MIT da raiz aplica-se somente ao código e documentação próprios, conforme [LICENCIAMENTO](docs/LICENCIAMENTO.md). Recursos, marcas, perfis e dependências não são automaticamente relicenciados.
 
-A imagem com correntes foi fornecida pelo responsável para apresentação pública. O EXE existente conserva a arte anterior, baseada em logo antiga do jogo segundo informação do responsável. Não houve recompilação. A imagem nova **não regulariza os direitos da arte embutida**.
+A imagem com correntes foi fornecida pelo responsável para apresentação pública e agora também é o ícone do novo candidato Windows. As distribuições antigas permanecem intactas localmente. A arte antiga ainda existe no histórico Git preservado: sua publicação exige decisão separada. A mudança visual não certifica direitos sobre a nova imagem, os perfis ou outros recursos.
+
+Os avisos reunidos estão em [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt) e `licenses/`. Leia as pendências antes de redistribuir.
