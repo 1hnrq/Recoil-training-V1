@@ -1,0 +1,1295 @@
+{
+  "schema_version": 1,
+  "source": {
+    "kind": "observed_numeric_configuration",
+    "scope": "current_external_frontend_snapshot_not_historic_executable_profiles",
+    "snapshot_utc": "2026-10-14T03:34:50.026604+00:00",
+    "url": "https://kindpump.github.io/",
+    "hashes": {
+      "frontend_project.json": "c5ad28e23f68d94c179cb3cfdb69ffcfbce5222eeb5d30aa1fcb6abd635428e0",
+      "frontend_current.html.txt": "a6ec7363d438dc833940c964b29c966b57b56c4d8d8225f2e4f59851cbbb5e33",
+      "frontend_profiles_current.json": "82edf188eccfe6b62ad55b04d23c644621945e18eb1028a10c17c74d61e3735b",
+      "frontend_selected_flows_v2.txt": "013c0ff4e44c61d599f3ca53a4aae8669eaa9f0b948e288b9fa13d1031e4b2ee"
+    },
+    "original_executable_sha256": "cdad3d540ef1cc3957cb4e6e6aa0299cd8baf420d6e9eb2fba78991f9321ca1d",
+    "mapping": "Stage.OP-SETTINGS[n] -> OPS.costumes[n], 1-based; T1,X1,Y1,T2,X2,Y2",
+    "license_note": "Numeric observations and operator identifiers only; no original artwork, fonts, sounds, or source code are included. No license for original assets is inferred."
+  },
+  "operators": [
+    {
+      "id": "ace",
+      "label": "Ace",
+      "legacy_index": 1,
+      "primary": {
+        "x": "-2.1",
+        "y": "8.199",
+        "interval_seconds": "0.03199",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "alibi",
+      "label": "Alibi",
+      "legacy_index": 2,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "amaru",
+      "label": "Amaru",
+      "legacy_index": 3,
+      "primary": {
+        "x": "-2.1",
+        "y": "7.2",
+        "interval_seconds": "0.032",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "6.59",
+        "interval_seconds": "0.03",
+        "enabled": true
+      }
+    },
+    {
+      "id": "aruni",
+      "label": "Aruni",
+      "legacy_index": 4,
+      "primary": {
+        "x": "2.1",
+        "y": "12.05",
+        "interval_seconds": "0.094",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "ash",
+      "label": "Ash",
+      "legacy_index": 5,
+      "primary": {
+        "x": "-2",
+        "y": "12.15",
+        "interval_seconds": "0.035",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0.04",
+        "enabled": true
+      }
+    },
+    {
+      "id": "azami",
+      "label": "Azami",
+      "legacy_index": 6,
+      "primary": {
+        "x": "-2",
+        "y": "10",
+        "interval_seconds": "0.084",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "bandit",
+      "label": "Bandit",
+      "legacy_index": 7,
+      "primary": {
+        "x": "0",
+        "y": "4.05",
+        "interval_seconds": "0.03",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "blackbeard",
+      "label": "Blackbeard",
+      "legacy_index": 8,
+      "primary": {
+        "x": "0.2",
+        "y": "3.25",
+        "interval_seconds": "0.054",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "blitz",
+      "label": "Blitz",
+      "legacy_index": 9,
+      "primary": {
+        "x": "0",
+        "y": "2.1",
+        "interval_seconds": "0.05",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "brava",
+      "label": "Brava",
+      "legacy_index": 10,
+      "primary": {
+        "x": "-1.05",
+        "y": "11.1",
+        "interval_seconds": "0.061",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "buck",
+      "label": "Buck",
+      "legacy_index": 11,
+      "primary": {
+        "x": "-2",
+        "y": "9.4",
+        "interval_seconds": "0.04",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "capitao",
+      "label": "Capitão",
+      "legacy_index": 12,
+      "primary": {
+        "x": "-1.2",
+        "y": "8.099",
+        "interval_seconds": "0.043",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "castle",
+      "label": "Castle",
+      "legacy_index": 13,
+      "primary": {
+        "x": "-1.2",
+        "y": "7.1",
+        "interval_seconds": "0.049",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "caveira",
+      "label": "Caveira",
+      "legacy_index": 14,
+      "primary": {
+        "x": "0",
+        "y": "2.05",
+        "interval_seconds": "0.027",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "clash",
+      "label": "Clash",
+      "legacy_index": 15,
+      "primary": {
+        "x": "0",
+        "y": "4.05",
+        "interval_seconds": "0.033",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "deimos",
+      "label": "Deimos",
+      "legacy_index": 16,
+      "primary": {
+        "x": "-2",
+        "y": "8.05",
+        "interval_seconds": "0.046",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "doc",
+      "label": "Doc",
+      "legacy_index": 17,
+      "primary": {
+        "x": "0.53",
+        "y": "8.1",
+        "interval_seconds": "0.033",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "dokkaebi",
+      "label": "Dokkaebi",
+      "legacy_index": 18,
+      "primary": {
+        "x": "3.2",
+        "y": "8",
+        "interval_seconds": "0.037",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "echo",
+      "label": "Echo",
+      "legacy_index": 19,
+      "primary": {
+        "x": "-1.09",
+        "y": "6",
+        "interval_seconds": "0.02799",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "-1.2",
+        "y": "6.099",
+        "interval_seconds": "0.03",
+        "enabled": true
+      }
+    },
+    {
+      "id": "ela",
+      "label": "Ela",
+      "legacy_index": 20,
+      "primary": {
+        "x": "2",
+        "y": "8.35",
+        "interval_seconds": "0.047",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "fenrir",
+      "label": "Fenrir",
+      "legacy_index": 21,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "finka",
+      "label": "Finka",
+      "legacy_index": 22,
+      "primary": {
+        "x": "-1.15",
+        "y": "9.1",
+        "interval_seconds": "0.031",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "flores",
+      "label": "Flores",
+      "legacy_index": 23,
+      "primary": {
+        "x": "-2.3",
+        "y": "16.05",
+        "interval_seconds": "0.09",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "frost",
+      "label": "Frost",
+      "legacy_index": 24,
+      "primary": {
+        "x": "0.1",
+        "y": "6.1",
+        "interval_seconds": "0.039",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "fuze",
+      "label": "Fuze",
+      "legacy_index": 25,
+      "primary": {
+        "x": "-1.15",
+        "y": "8.1",
+        "interval_seconds": "0.037",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0.099",
+        "y": "-0.2",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "glaz",
+      "label": "Glaz",
+      "legacy_index": 26,
+      "primary": {
+        "x": "0",
+        "y": "7.25",
+        "interval_seconds": "0.033",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "goyo",
+      "label": "Goyo",
+      "legacy_index": 27,
+      "primary": {
+        "x": "-0.1",
+        "y": "10.06",
+        "interval_seconds": "0.027",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "gridlock",
+      "label": "Gridlock",
+      "legacy_index": 28,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "grim",
+      "label": "Grim",
+      "legacy_index": 29,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "hibana",
+      "label": "Hibana",
+      "legacy_index": 30,
+      "primary": {
+        "x": "-2.3",
+        "y": "7.05",
+        "interval_seconds": "0.031",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "1.5",
+        "y": "11.2989",
+        "interval_seconds": "0.049",
+        "enabled": true
+      }
+    },
+    {
+      "id": "iana",
+      "label": "Iana",
+      "legacy_index": 31,
+      "primary": {
+        "x": "-1.2",
+        "y": "8.05",
+        "interval_seconds": "0.039",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "iq",
+      "label": "IQ",
+      "legacy_index": 32,
+      "primary": {
+        "x": "-2.3",
+        "y": "8.25",
+        "interval_seconds": "0.039",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "jackal",
+      "label": "Jackal",
+      "legacy_index": 33,
+      "primary": {
+        "x": "-1.05",
+        "y": "9",
+        "interval_seconds": "0.034",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "jager",
+      "label": "Jäger",
+      "legacy_index": 34,
+      "primary": {
+        "x": "-1",
+        "y": "6",
+        "interval_seconds": "0.035",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "kaid",
+      "label": "Kaid",
+      "legacy_index": 35,
+      "primary": {
+        "x": "0",
+        "y": "4.4",
+        "interval_seconds": "0.039",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "kali",
+      "label": "Kali",
+      "legacy_index": 36,
+      "primary": {
+        "x": "0.4",
+        "y": "5.05",
+        "interval_seconds": "0.032",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "kapkan",
+      "label": "Kapkan",
+      "legacy_index": 37,
+      "primary": {
+        "x": "-1",
+        "y": "6.349",
+        "interval_seconds": "0.038",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "lesion",
+      "label": "Lesion",
+      "legacy_index": 38,
+      "primary": {
+        "x": "0.1",
+        "y": "7.05",
+        "interval_seconds": "0.042",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "lion",
+      "label": "Lion",
+      "legacy_index": 39,
+      "primary": {
+        "x": "-2.35",
+        "y": "7.05",
+        "interval_seconds": "0.045",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "maestro",
+      "label": "Maestro",
+      "legacy_index": 40,
+      "primary": {
+        "x": "-1.45",
+        "y": "4.06",
+        "interval_seconds": "0.034",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "maverick",
+      "label": "Maverick",
+      "legacy_index": 41,
+      "primary": {
+        "x": "-2.1",
+        "y": "13.05",
+        "interval_seconds": "0.059",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "melusi",
+      "label": "Melusi",
+      "legacy_index": 42,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "mira",
+      "label": "Mira",
+      "legacy_index": 43,
+      "primary": {
+        "x": "-0.1",
+        "y": "6.06",
+        "interval_seconds": "0.03",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "montagne",
+      "label": "Montagne",
+      "legacy_index": 44,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "mozzie",
+      "label": "Mozzie",
+      "legacy_index": 45,
+      "primary": {
+        "x": "-0.3",
+        "y": "5.1",
+        "interval_seconds": "0.045",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "mute",
+      "label": "Mute",
+      "legacy_index": 46,
+      "primary": {
+        "x": "0.1",
+        "y": "0.2",
+        "interval_seconds": "0.00799",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "7.0989",
+        "interval_seconds": "0.03899",
+        "enabled": true
+      }
+    },
+    {
+      "id": "nokk",
+      "label": "Nøkk",
+      "legacy_index": 47,
+      "primary": {
+        "x": "0",
+        "y": "7",
+        "interval_seconds": "0.03",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "nomad",
+      "label": "Nomad",
+      "legacy_index": 48,
+      "primary": {
+        "x": "-1.1",
+        "y": "8.05",
+        "interval_seconds": "0.045",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "oryx",
+      "label": "Oryx",
+      "legacy_index": 49,
+      "primary": {
+        "x": "0.1",
+        "y": "6.2",
+        "interval_seconds": "0.041",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "osa",
+      "label": "Osa",
+      "legacy_index": 50,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "pulse",
+      "label": "Pulse",
+      "legacy_index": 51,
+      "primary": {
+        "x": "-2.1",
+        "y": "9.15",
+        "interval_seconds": "0.133",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "ram",
+      "label": "Ram",
+      "legacy_index": 52,
+      "primary": {
+        "x": "-2.1",
+        "y": "12",
+        "interval_seconds": "0.042",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "rauora",
+      "label": "Rauora",
+      "legacy_index": 53,
+      "primary": {
+        "x": "-2.2",
+        "y": "8.1",
+        "interval_seconds": "0.066",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "rook",
+      "label": "Rook",
+      "legacy_index": 54,
+      "primary": {
+        "x": "0.1",
+        "y": "6.15",
+        "interval_seconds": "0.03",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "sens",
+      "label": "Sens",
+      "legacy_index": 55,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "sentry",
+      "label": "Sentry",
+      "legacy_index": 56,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "skopos",
+      "label": "Skopos",
+      "legacy_index": 57,
+      "primary": {
+        "x": "-2.4",
+        "y": "8.05",
+        "interval_seconds": "0.087",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "sledge",
+      "label": "Sledge",
+      "legacy_index": 58,
+      "primary": {
+        "x": "1.08",
+        "y": "5.04",
+        "interval_seconds": "0.026",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "smoke",
+      "label": "Smoke",
+      "legacy_index": 59,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "solis",
+      "label": "Solis",
+      "legacy_index": 60,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "striker",
+      "label": "Striker",
+      "legacy_index": 61,
+      "primary": {
+        "x": "-2",
+        "y": "9",
+        "interval_seconds": "0.045",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "tachanka",
+      "label": "Tachanka",
+      "legacy_index": 62,
+      "primary": {
+        "x": "2.1",
+        "y": "7.2",
+        "interval_seconds": "0.127",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "thatcher",
+      "label": "Thatcher",
+      "legacy_index": 63,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "thermite",
+      "label": "Thermite",
+      "legacy_index": 64,
+      "primary": {
+        "x": "3",
+        "y": "9",
+        "interval_seconds": "0.048",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "thorn",
+      "label": "Thorn",
+      "legacy_index": 65,
+      "primary": {
+        "x": "0",
+        "y": "6",
+        "interval_seconds": "0.04",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "thunderbird",
+      "label": "Thunderbird",
+      "legacy_index": 66,
+      "primary": {
+        "x": "-2.3",
+        "y": "10.55",
+        "interval_seconds": "0.061",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "tubarao",
+      "label": "Tubarão",
+      "legacy_index": 67,
+      "primary": {
+        "x": "-0.05",
+        "y": "6.1",
+        "interval_seconds": "0.053",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "twitch",
+      "label": "Twitch",
+      "legacy_index": 68,
+      "primary": {
+        "x": "-1.1",
+        "y": "13.07",
+        "interval_seconds": "0.033",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "valkyrie",
+      "label": "Valkyrie",
+      "legacy_index": 69,
+      "primary": {
+        "x": "-1.1",
+        "y": "6.15",
+        "interval_seconds": "0.044",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "vigil",
+      "label": "Vigil",
+      "legacy_index": 70,
+      "primary": {
+        "x": "0.099",
+        "y": "-0.0499",
+        "interval_seconds": "0.00099",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "2.11",
+        "y": "9.3989",
+        "interval_seconds": "0.039",
+        "enabled": true
+      }
+    },
+    {
+      "id": "wamai",
+      "label": "Wamai",
+      "legacy_index": 71,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "warden",
+      "label": "Warden",
+      "legacy_index": 72,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "ying",
+      "label": "Ying",
+      "legacy_index": 73,
+      "primary": {
+        "x": "0",
+        "y": "8.1",
+        "interval_seconds": "0.043",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "zero",
+      "label": "Zero",
+      "legacy_index": 74,
+      "primary": {
+        "x": "0",
+        "y": "8.1",
+        "interval_seconds": "0.032",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    },
+    {
+      "id": "zofia",
+      "label": "Zofia",
+      "legacy_index": 75,
+      "primary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      },
+      "secondary": {
+        "x": "0",
+        "y": "0",
+        "interval_seconds": "0",
+        "enabled": true
+      }
+    }
+  ]
+}

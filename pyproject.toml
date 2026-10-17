@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "r6-rebuild"
+version = "0.5.0"
+description = "Windows desktop, exact fractional engine, explicit safe output and versioned settings"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.optional-dependencies]
+desktop = ["pywebview==6.2.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

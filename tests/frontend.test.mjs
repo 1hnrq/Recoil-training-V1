@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {createState,current,selectOperator,selectWeapon,toggleWeapon,updateParameter,units,decimal,legacyDisplay,configured,validated} from '../frontend/model.js';
+
+const catalog=JSON.parse(readFileSync(new URL('../data/profiles.json',import.meta.url),'utf8'));
+test('75 perfis são clonados sem modificar o catálogo',()=>{const s=createState(catalog);assert.equal(s.operators.length,75);const original=current(s).primary.x;updateParameter(s,'primary','x','-0.4');assert.notEqual(current(s).primary.x,original);assert.equal(catalog.operators.find(o=>o.id===s.selected).primary.x,original);});
+test('pausa geral começa ativa e não é removida por atualização ou troca',()=>{const s=createState(catalog);selectOperator(s,'ash');selectWeapon(s,'secondary');updateParameter(s,'secondary','y','-0.4');assert.equal(s.paused,true);});
+test('pausas individuais independentes por arma e operador',()=>{const s=createState(catalog);toggleWeapon(s,'secondary');selectOperator(s,'ash');toggleWeapon(s,'primary');assert.equal(current(s).secondary.enabled,true);selectOperator(s,'jager');assert.equal(current(s).primary.enabled,true);assert.equal(current(s).secondary.enabled,false);});
+test('alternar pausa geral não modifica flags individuais',()=>{const s=createState(catalog);toggleWeapon(s,'secondary');s.paused=false;s.paused=true;assert.equal(current(s).primary.enabled,true);assert.equal(current(s).secondary.enabled,false);});
+test('trocar operador seleciona primária; mesmo operador mantém secundária',()=>{const s=createState(catalog);selectWeapon(s,'secondary');selectOperator(s,'jager');assert.equal(s.weapon,'secondary');selectOperator(s,'ash');assert.equal(s.weapon,'primary');});
+test('representação decimal de edição é exata, inclusive negativos',()=>{for(const v of ['-0.4','-1.5','0.005','12.15','0.03199','-0.000001'])assert.equal(decimal(units(v)),v);assert.equal(decimal(units('0.1')+units('0.2')),'0.3');});
+test('intervalos solicitados aceitos e zero permanece não configurado',()=>{for(const v of ['0.035','0.020','0.010','0.005','0.001'])assert.ok(validated('interval_seconds',v));assert.equal(configured({interval_seconds:'0'}),false);assert.throws(()=>validated('interval_seconds','-1'));assert.throws(()=>validated('interval_seconds','0.0001'));});
+test('entradas inválidas não são aceitas',()=>{for(const v of ['NaN','Infinity','','1e6','0.0000001'])assert.throws(()=>units(v));assert.equal(validated('x','-0,4'),'-0.4');});
+test('intervalo legado do Vigil é preservado mas não habilita saída',()=>{const s=createState(catalog);selectOperator(s,'vigil');assert.equal(current(s).primary.interval_seconds,'0.00099');assert.equal(configured(current(s).primary),false);});
+test('conversões de exibição legado preservam valores-base',()=>{const s=createState(catalog);selectOperator(s,'ash');const p=current(s);assert.equal(legacyDisplay(p.primary,'primary').y,decimal(-units(p.primary.y)));assert.equal(legacyDisplay(p.secondary,'secondary').interval_seconds,'0.4');assert.equal(p.secondary.interval_seconds,'0.04');});
+test('não existe saída funcional nem carregamento de ativos remotos no frontend',()=>{for(const f of ['app.js','model.js','index.html']){const text=readFileSync(new URL(`../frontend/${f}`,import.meta.url),'utf8');assert.doesNotMatch(text,/new\s+WebSocket|mouse_event\s*\(|SendInput\s*\(|https?:\/\/|localStorage|sessionStorage/);}});

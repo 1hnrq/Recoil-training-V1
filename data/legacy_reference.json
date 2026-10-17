@@ -1,0 +1,382 @@
+{
+  "schema_version": 1,
+  "description": "Minimal frozen numeric facts extracted from Stage.OP-SETTINGS and OPS costume identifiers. No TurboWarp code or assets.",
+  "source_sha256": "c5ad28e23f68d94c179cb3cfdb69ffcfbce5222eeb5d30aa1fcb6abd635428e0",
+  "records": [
+    {
+      "legacy_index": 1,
+      "legacy_operator": "ace",
+      "raw": "0.03199,-2.1,8.199,0,0,0"
+    },
+    {
+      "legacy_index": 2,
+      "legacy_operator": "alibi",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 3,
+      "legacy_operator": "amaru",
+      "raw": "0.032,-2.1,7.2,0.03,0,6.59"
+    },
+    {
+      "legacy_index": 4,
+      "legacy_operator": "aruni",
+      "raw": "0.094,2.1,12.05,0,0,0"
+    },
+    {
+      "legacy_index": 5,
+      "legacy_operator": "ash",
+      "raw": "0.035,-2,12.15,0.04,0,0"
+    },
+    {
+      "legacy_index": 6,
+      "legacy_operator": "azami",
+      "raw": "0.084,-2,10,0,0,0"
+    },
+    {
+      "legacy_index": 7,
+      "legacy_operator": "bandit",
+      "raw": "0.03,0,4.05,0,0,0"
+    },
+    {
+      "legacy_index": 8,
+      "legacy_operator": "blackbeard",
+      "raw": "0.054,0.2,3.25,0,0,0"
+    },
+    {
+      "legacy_index": 9,
+      "legacy_operator": "blitz",
+      "raw": "0.05,0,2.1,0,0,0"
+    },
+    {
+      "legacy_index": 10,
+      "legacy_operator": "brava",
+      "raw": "0.061,-1.05,11.1,0,0,0"
+    },
+    {
+      "legacy_index": 11,
+      "legacy_operator": "buck",
+      "raw": "0.04,-2,9.4,0,0,0"
+    },
+    {
+      "legacy_index": 12,
+      "legacy_operator": "capitao",
+      "raw": "0.043,-1.2,8.099,0,0,0"
+    },
+    {
+      "legacy_index": 13,
+      "legacy_operator": "castle",
+      "raw": "0.049,-1.2,7.1,0,0,0"
+    },
+    {
+      "legacy_index": 14,
+      "legacy_operator": "caveira",
+      "raw": "0.027,0,2.05,0,0,0"
+    },
+    {
+      "legacy_index": 15,
+      "legacy_operator": "clash",
+      "raw": "0.033,0,4.05,0,0,0"
+    },
+    {
+      "legacy_index": 16,
+      "legacy_operator": "deimos",
+      "raw": "0.046,-2,8.05,0,0,0"
+    },
+    {
+      "legacy_index": 17,
+      "legacy_operator": "doc",
+      "raw": "0.033,0.53,8.1,0,0,0"
+    },
+    {
+      "legacy_index": 18,
+      "legacy_operator": "dokkaebi",
+      "raw": "0.037,3.2,8,0,0,0"
+    },
+    {
+      "legacy_index": 19,
+      "legacy_operator": "echo",
+      "raw": "0.02799,-1.09,6,0.03,-1.2,6.099"
+    },
+    {
+      "legacy_index": 20,
+      "legacy_operator": "ela",
+      "raw": "0.047,2,8.35,0,0,0"
+    },
+    {
+      "legacy_index": 21,
+      "legacy_operator": "fenrir",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 22,
+      "legacy_operator": "finka",
+      "raw": "0.031,-1.15,9.1,0,0,0"
+    },
+    {
+      "legacy_index": 23,
+      "legacy_operator": "flores",
+      "raw": "0.09,-2.3,16.05,0,0,0"
+    },
+    {
+      "legacy_index": 24,
+      "legacy_operator": "frost",
+      "raw": "0.039,0.1,6.1,0,0,0"
+    },
+    {
+      "legacy_index": 25,
+      "legacy_operator": "fuze",
+      "raw": "0.037,-1.15,8.1,0,0.099,-0.2"
+    },
+    {
+      "legacy_index": 26,
+      "legacy_operator": "glaz",
+      "raw": "0.033,0,7.25,0,0,0"
+    },
+    {
+      "legacy_index": 27,
+      "legacy_operator": "goyo",
+      "raw": "0.027,-0.1,10.06,0,0,0"
+    },
+    {
+      "legacy_index": 28,
+      "legacy_operator": "gridlock",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 29,
+      "legacy_operator": "grim",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 30,
+      "legacy_operator": "hibana",
+      "raw": "0.031,-2.3,7.05,0.049,1.5,11.2989"
+    },
+    {
+      "legacy_index": 31,
+      "legacy_operator": "iana",
+      "raw": "0.039,-1.2,8.05,0,0,0"
+    },
+    {
+      "legacy_index": 32,
+      "legacy_operator": "iQ",
+      "raw": "0.039,-2.3,8.25,0,0,0"
+    },
+    {
+      "legacy_index": 33,
+      "legacy_operator": "jackal",
+      "raw": "0.034,-1.05,9,0,0,0"
+    },
+    {
+      "legacy_index": 34,
+      "legacy_operator": "jager",
+      "raw": "0.035,-1,6,0,0,0"
+    },
+    {
+      "legacy_index": 35,
+      "legacy_operator": "kaid",
+      "raw": "0.039,0,4.4,0,0,0"
+    },
+    {
+      "legacy_index": 36,
+      "legacy_operator": "kali",
+      "raw": "0.032,0.4,5.05,0,0,0"
+    },
+    {
+      "legacy_index": 37,
+      "legacy_operator": "kapkan",
+      "raw": "0.038,-1,6.349,0,0,0"
+    },
+    {
+      "legacy_index": 38,
+      "legacy_operator": "lesion",
+      "raw": "0.042,0.1,7.05,0,0,0"
+    },
+    {
+      "legacy_index": 39,
+      "legacy_operator": "lion",
+      "raw": "0.045,-2.35,7.05,0,0,0"
+    },
+    {
+      "legacy_index": 40,
+      "legacy_operator": "maestro",
+      "raw": "0.034,-1.45,4.06,0,0,0"
+    },
+    {
+      "legacy_index": 41,
+      "legacy_operator": "maverick",
+      "raw": "0.059,-2.1,13.05,0,0,0"
+    },
+    {
+      "legacy_index": 42,
+      "legacy_operator": "melusi",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 43,
+      "legacy_operator": "mira",
+      "raw": "0.03,-0.1,6.06,0,0,0"
+    },
+    {
+      "legacy_index": 44,
+      "legacy_operator": "montagne",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 45,
+      "legacy_operator": "mozzie",
+      "raw": "0.045,-0.3,5.1,0,0,0"
+    },
+    {
+      "legacy_index": 46,
+      "legacy_operator": "mute",
+      "raw": "0.00799,0.1,0.2,0.03899,0,7.0989"
+    },
+    {
+      "legacy_index": 47,
+      "legacy_operator": "nokk",
+      "raw": "0.03,0,7,0,0,0"
+    },
+    {
+      "legacy_index": 48,
+      "legacy_operator": "nomad",
+      "raw": "0.045,-1.1,8.05,0,0,0"
+    },
+    {
+      "legacy_index": 49,
+      "legacy_operator": "oryx",
+      "raw": "0.041,0.1,6.2,0,0,0"
+    },
+    {
+      "legacy_index": 50,
+      "legacy_operator": "osa",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 51,
+      "legacy_operator": "pulse",
+      "raw": "0.133,-2.1,9.15,0,0,0"
+    },
+    {
+      "legacy_index": 52,
+      "legacy_operator": "ram",
+      "raw": "0.042,-2.1,12,0,0,0"
+    },
+    {
+      "legacy_index": 53,
+      "legacy_operator": "rauora",
+      "raw": "0.066,-2.2,8.1,0,0,0"
+    },
+    {
+      "legacy_index": 54,
+      "legacy_operator": "rook",
+      "raw": "0.03,0.1,6.15,0,0,0"
+    },
+    {
+      "legacy_index": 55,
+      "legacy_operator": "sens",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 56,
+      "legacy_operator": "sentry",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 57,
+      "legacy_operator": "skopos",
+      "raw": "0.087,-2.4,8.05,0,0,0"
+    },
+    {
+      "legacy_index": 58,
+      "legacy_operator": "sledge",
+      "raw": "0.026,1.08,5.04,0,0,0"
+    },
+    {
+      "legacy_index": 59,
+      "legacy_operator": "smoke",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 60,
+      "legacy_operator": "solis",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 61,
+      "legacy_operator": "striker",
+      "raw": "0.045,-2,9,0,0,0"
+    },
+    {
+      "legacy_index": 62,
+      "legacy_operator": "tachanka",
+      "raw": "0.127,2.1,7.2,0,0,0"
+    },
+    {
+      "legacy_index": 63,
+      "legacy_operator": "thatcher",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 64,
+      "legacy_operator": "thermite",
+      "raw": "0.048,3,9,0,0,0"
+    },
+    {
+      "legacy_index": 65,
+      "legacy_operator": "thorn",
+      "raw": "0.04,0,6,0,0,0"
+    },
+    {
+      "legacy_index": 66,
+      "legacy_operator": "thunderbird",
+      "raw": "0.061,-2.3,10.55,0,0,0"
+    },
+    {
+      "legacy_index": 67,
+      "legacy_operator": "tubarao",
+      "raw": "0.053,-0.05,6.1,0,0,0"
+    },
+    {
+      "legacy_index": 68,
+      "legacy_operator": "twitch",
+      "raw": "0.033,-1.1,13.07,0,0,0"
+    },
+    {
+      "legacy_index": 69,
+      "legacy_operator": "valkyrie",
+      "raw": "0.044,-1.1,6.15,0,0,0"
+    },
+    {
+      "legacy_index": 70,
+      "legacy_operator": "vigil",
+      "raw": "0.00099,0.099,-0.0499,0.039,2.11,9.3989"
+    },
+    {
+      "legacy_index": 71,
+      "legacy_operator": "wamai",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 72,
+      "legacy_operator": "warden",
+      "raw": "0,0,0,0,0,0"
+    },
+    {
+      "legacy_index": 73,
+      "legacy_operator": "ying",
+      "raw": "0.043,0,8.1,0,0,0"
+    },
+    {
+      "legacy_index": 74,
+      "legacy_operator": "zero",
+      "raw": "0.032,0,8.1,0,0,0"
+    },
+    {
+      "legacy_index": 75,
+      "legacy_operator": "zofia",
+      "raw": "0,0,0,0,0,0"
+    }
+  ]
+}

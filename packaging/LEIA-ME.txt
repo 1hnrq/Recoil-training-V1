@@ -1,0 +1,50 @@
+R6-Rebuild — Fase 5
+
+Abra R6-Rebuild.exe com dois cliques. Mantenha a pasta _internal junto ao EXE;
+para mover a aplicação, copie a pasta R6-Rebuild inteira, não somente o EXE.
+Não requer Python, Codex, REA, Ghidra, console ou privilégios administrativos.
+Requer Windows x64, .NET Framework e Microsoft Edge WebView2 Runtime existentes.
+Nenhum runtime é instalado automaticamente. Se faltar, instale somente após
+verificar os requisitos nos sites oficiais Microsoft/pywebview.
+
+Sempre inicia em Simulação e com pausa geral. No modo Real, confirmado no
+indicador superior, somente L+R físicos podem ativar a saída. P pausa/retoma,
+1/2 selecionam armas, F12 interrompe, pausa e retorna à Simulação.
+As pausas individuais continuam independentes. Clique/edição na própria UI
+não altera a pausa geral. Operações de arquivo usam bloqueio temporário
+separado. Não há detecção de jogo, leitura de memória ou bypass.
+Diagnóstico distingue o último estado do hook, a consulta Windows, L/R
+reconciliados e a entrada do motor, com idades, sequências e motivos de
+liberação. Divergências suspendem a saída; recuperação requer duas amostras
+novas vinculadas a um DOWN válido. Uma consulta positiva isolada não ativa.
+Holding descreve os dois botões reconciliados, não a elegibilidade. Geração
+conta reinicializações de resíduos, não comprova captura ou movimento.
+
+Esta distribuição inclui a correção de sincronização saída/heartbeat.
+O envio não mantém o lock principal do motor. O limite de heartbeat permanece
+250 ms, sem renovações artificiais. Diagnóstico mostra causa específica,
+idade/atrasos do heartbeat, duração/retorno/erro de SendInput, esperas por
+locks e registro congelado da última transição Real para Simulação.
+Não há fila nem reenvio. Uma parada impede novas admissões, mas não cancela
+retroativamente uma chamada já admitida pelo adaptador/entregue ao Windows.
+
+Configurações: %LOCALAPPDATA%\R6-Rebuild\settings.json, com backup last-valid.
+O EXE usa a mesma pasta após ser movido. Na primeira execução, copia .local
+vizinha ou a .local deste checkout quando executado de dentro dele. Nunca
+apaga a origem ou substitui configurações já existentes no destino.
+Se mover antes da primeira execução, use Arquivos > Importar JSON, ou execute
+R6-Rebuild.exe --migrate-from "CAMINHO\DA\ANTIGA\.local".
+Fontes conflitantes/inválidas interrompem migração com mensagem; escolha uma.
+Importar/exportar preserva o formato JSON versionado das fases anteriores.
+
+QA sem movimento: R6-Rebuild.exe --mock-output --data-dir "PASTA-DE-TESTE"
+Autoverificação: R6-Rebuild.exe --self-check "PASTA-NOVA-DE-RELATORIO"
+Nenhuma dessas opções emite movimentos reais. Feche completamente para
+encerrar hooks/workers. Não há serviço instalado em segundo plano.
+
+Intervalo de 1 ms não garante 1.000 ciclos/s. SendInput pode ser limitado por
+UIPI/aplicativos elevados. Não há garantia de aceitação por jogos/anticheat.
+Teste inicial nativo limitado validou somente o adaptador, fora de jogos.
+Validação manual física global/minimizada e fullscreen permanece necessária.
+Executável local sem assinatura digital. Não desative proteções do Windows.
+Logos: licença em _internal/frontend/assets/operators/LICENSE.txt.

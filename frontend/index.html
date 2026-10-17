@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>R6 Rebuild · Prévia local</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/operator-icons.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <main id="app" class="client" tabindex="-1" aria-label="Prévia R6 Rebuild">
+    <header class="brand"><span class="brand-line"></span><div><strong>R6 REBUILD</strong><small>PRÉVIA LOCAL · 0.1</small></div><span class="brand-line"></span></header>
+    <div class="utility"><button id="back" class="text-button" hidden>← OPERADORES</button><span id="screen-title">CARREGANDO PERFIS</span><button id="output-mode" class="safe-label text-button" aria-label="Selecionar modo de saída" disabled><i></i> SEM SAÍDA DE MOUSE</button></div>
+    <section id="content" aria-live="polite"><p class="loading">Carregando catálogo local…</p></section>
+    <footer><span><kbd>1</kbd> Primária <kbd>2</kbd> Secundária <kbd>P</kbd> Pausa geral</span><button id="emergency" class="text-button" hidden>F12 · Emergência</button><button id="diagnostics" class="text-button">Diagnóstico ↗</button><button id="about" class="text-button">Sobre esta entrega ↗</button></footer>
+  </main>
+  <div class="preview-caption"><span>FASE 1 + PRÉVIA VISUAL</span> Estado apenas nesta sessão. Nenhum comando é enviado ao Windows.</div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button id="dialog-close" aria-label="Fechar diálogo">×</button></div><div id="dialog-body"></div></dialog>
+  <div id="announcement" class="sr-only" aria-live="polite"></div>
+</body>
+</html>
