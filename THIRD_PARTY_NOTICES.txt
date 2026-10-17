@@ -1,0 +1,94 @@
+R6-Rebuild - avisos de terceiros / candidato local de 2026-10-17
+
+ESTADO: revisão parcial. Este pacote NÃO está liberado para publicação.
+Não confundir a inclusão destes avisos com comprovação de todas as permissões.
+Os textos integrais em licenses/ acompanham este arquivo e devem ser preservados.
+Versões instaladas/fontes: docs/dependencies-installed.json.
+Fontes oficiais e comparação WebView2: docs/dependencies-official-evidence.json.
+Arquivos efetivamente distribuídos: docs/distribution-correntes.json.
+
+EXECUÇÃO E COMPONENTES EMPACOTADOS
+
+Python 3.13.14 - PSF-2.0 e licenças históricas/adicionais.
+Texto integral: licenses/Python-LICENSE.txt. Conservar copyright, termos e
+avisos. O próprio texto do build Windows exige cumprimento das condições do
+Microsoft Distributable Code. Não foram alterados os binários Python.
+
+OpenSSL 3.0.21 - Apache-2.0. Versão dos dois DLLs (libssl/libcrypto).
+Texto: licenses/OpenSSL-3.0.21/LICENSE.txt. Conservar licença, atribuições e
+avisos aplicáveis; identificar modificações se existirem. Binários não alterados.
+Copyright The OpenSSL Project Authors. https://www.openssl.org/
+
+pywebview 6.2.1 - BSD-3-Clause; bottle 0.13.4 - MIT;
+pythonnet 3.2.1 - MIT; clr_loader 0.3.1 - MIT;
+pycparser 3.11 - BSD-3-Clause; cffi 2.1.1 - MIT-0;
+typing_extensions 4.16.0 - PSF-2.0.
+Os textos originais estão nos respectivos diretórios de licenses/.
+MIT: conservar copyright/licença. BSD: conservar copyright, condições,
+disclaimer e não alegar endosso. PSF: conservar termos/copyright e documentar
+modificações quando aplicável. MIT-0 não exige atribuição; incluída por clareza.
+Bibliotecas nativas incorporadas a extensões podem ter termos próprios.
+
+proxy_tools 0.1.0 - DIVERGÊNCIA NÃO RESOLVIDA.
+Os metadados instalados dizem MIT, sem arquivo de licença. O LICENSE.txt do
+repositório oficial atual declara BSD, copyright Armin Ronacher e Jonathan
+Tushman. Texto preservado em licenses/proxy_tools-upstream/LICENSE.txt como
+evidência, NÃO como prova da licença aplicável à versão 0.1.0.
+É necessário vincular o release distribuído ao texto correto antes de publicar.
+O sdist oficial 0.1.0 foi baixado do PyPI, conferido pelo SHA-256 publicado e
+inspecionado sem execução: não contém LICENSE, COPYING ou NOTICE.
+
+Microsoft.Web.WebView2 SDK 1.0.3856.49 - os cinco DLLs distribuídos foram
+comparados por SHA-256 com o NuGet oficial dessa versão. LICENSE.txt do pacote
+contém condições BSD de três cláusulas; NOTICE.txt também acompanha o pacote.
+Conservar ambos em licenses/WebView2-1.0.3856.49/.
+Isso não significa distribuir o navegador WebView2 Runtime: ele é requisito
+externo. Também não relicencia outros componentes Microsoft.
+
+WebBrowserInterop.x64.dll e WebBrowserInterop.x86.dll - FileVersion 0.0.0.0,
+fornecidos no pywebview 6.2.1. A cadeia de origem/licença desses binários precisa
+de confirmação específica; não presumir que toda DLL herda BSD do Python wrapper.
+
+Microsoft VCRUNTIME140.dll e VCRUNTIME140_1.dll - 14.42.34438.0.
+UCRT e api-ms-win*.dll - 10.0.26100.4654.
+Componentes proprietários Microsoft. A coleta local do build não demonstra por
+si só direitos de redistribuição. Verificar termos de Distributable Code e a
+origem em redistribuível/SDK autorizado. Não são cobertos pela MIT do projeto.
+Referência oficial: https://learn.microsoft.com/en-us/cpp/windows/universal-crt-deployment
+
+Dependências nativas do CPython: o manifesto oficial v3.13.14 aponta libffi
+3.4.4, bzip2 1.0.8, xz/liblzma 5.2.5, zlib 1.3.1 e mpdecimal 4.0.0.
+Os textos correspondentes estão em licenses/. A correspondência é evidência
+do build upstream, não confirmação binária individual de todas essas versões.
+libffi: MIT; bzip2: licença permissiva própria; liblzma dessa versão: domínio
+público conforme COPYING; zlib: licença zlib; mpdecimal: BSD-2-Clause conforme COPYRIGHT.
+Conservar os avisos e condições integrais. Não aplicar a licença de ferramentas
+xz GPL a liblzma indiscriminadamente; componentes diferem.
+Referência: https://github.com/python/cpython/blob/v3.13.14/PCbuild/get_externals.bat
+Falta fechar a composição nativa estática de _cffi_backend e demais extensões.
+
+BUILD
+
+PyInstaller 6.22.3 - GPL-2.0-or-later com exceção para aplicativos gerados;
+partes sob Apache-2.0. Texto integral COPYING.txt incluído. A exceção não
+substitui as obrigações das bibliotecas empacotadas. Bootloader sem alterações.
+pyinstaller-hooks-contrib 2026.8 - hooks padrão GPL-2.0-or-later;
+hooks de runtime Apache-2.0, conforme LICENSE integral incluído.
+altgraph 0.17.5: MIT; packaging 26.3: Apache-2.0 OR BSD-2-Clause;
+pefile 2024.8.26: MIT; pywin32-ctypes 0.2.3: BSD-3-Clause;
+setuptools 84.0.0: MIT. Textos integrais preservados.
+Essas ferramentas não devem ser tratadas automaticamente como bibliotecas de
+execução. O manifesto de análise do build diferencia módulos/dados coletados.
+Pillow 12.3.0 foi usado somente para conversão da arte, fora do ambiente de
+empacotamento; não está incluído no aplicativo.
+
+RECURSOS
+
+75 SVGs: @zerobertoo/r6operators 2.0.0, MIT, copyright Marco Vockner e Jose
+Roberto. Licença integral em _internal/frontend/assets/operators/LICENSE.txt.
+Não concede direitos sobre marcas nem significa endosso.
+Logo com correntes: fornecida pelo responsável, fora da MIT do código.
+Perfis: observações numéricas; revisar base de redistribuição separadamente.
+
+Nenhuma licença do código próprio substitui as condições acima. Para futura
+distribuição, conservar este arquivo, licenses/ e avisos em _internal.

@@ -43,6 +43,8 @@ def main():
         raise RuntimeError('Build não é Windows x64 GUI.')
     from check_brand_icon import verify_pe
     branding = verify_pe(bundle / 'R6-Rebuild.exe', ROOT / 'assets/branding/r6-rebuild.ico')
+    subprocess.run([sys.executable, str(ROOT / 'tools/verify_public_bundle.py'),
+                    '--bundle', str(bundle), '--analysis', str(work / 'R6-Rebuild/Analysis-00.toc')], check=True)
     files = list(p for p in bundle.rglob('*') if p.is_file())
     forbidden = [p for p in files if p.name in ('settings.json', 'settings.last-valid.json')
                  or any(part in ('.local', '.venv', '.research', 'tests') for part in p.relative_to(bundle).parts)]
