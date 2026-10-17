@@ -1,4 +1,5 @@
-R6-Rebuild - avisos de terceiros / candidato local de 2026-10-17
+Recoil-training-V1 - avisos de terceiros / revisão de 2026-10-17
+Aplicativo Windows e nome interno: R6-Rebuild (R6-Rebuild.exe).
 
 ESTADO: revisão parcial. Este pacote NÃO está liberado para publicação.
 Não confundir a inclusão destes avisos com comprovação de todas as permissões.
@@ -29,14 +30,16 @@ disclaimer e não alegar endosso. PSF: conservar termos/copyright e documentar
 modificações quando aplicável. MIT-0 não exige atribuição; incluída por clareza.
 Bibliotecas nativas incorporadas a extensões podem ter termos próprios.
 
-proxy_tools 0.1.0 - DIVERGÊNCIA NÃO RESOLVIDA.
-Os metadados instalados dizem MIT, sem arquivo de licença. O LICENSE.txt do
-repositório oficial atual declara BSD, copyright Armin Ronacher e Jonathan
-Tushman. Texto preservado em licenses/proxy_tools-upstream/LICENSE.txt como
-evidência, NÃO como prova da licença aplicável à versão 0.1.0.
-É necessário vincular o release distribuído ao texto correto antes de publicar.
-O sdist oficial 0.1.0 foi baixado do PyPI, conferido pelo SHA-256 publicado e
-inspecionado sem execução: não contém LICENSE, COPYING ou NOTICE.
+proxy_tools 0.1.0 - BSD-3-Clause conforme o cabeçalho do código efetivo.
+O fonte do sdist oficial e o módulo instalado têm SHA-256 idêntico. O cabeçalho
+declara BSD e copyright de Armin Ronacher, adaptado por Jonathan Tushman.
+O mesmo fonte existe em commits upstream com LICENSE.txt BSD de três cláusulas.
+Texto correspondente em licenses/proxy_tools-0.1.0/LICENSE.txt: conservar
+copyright, condições e disclaimer; não usar nomes para endosso.
+Os metadados setup.py/PKG-INFO dizem MIT, inconsistentemente. Não se presume
+licença dual nem substituição do aviso BSD explícito no código. A divergência
+foi esclarecida pela evidência do código, não por alteração do pacote.
+Hashes e commits em docs/dependencies-provenance-final.json.
 
 Microsoft.Web.WebView2 SDK 1.0.3856.49 - os cinco DLLs distribuídos foram
 comparados por SHA-256 com o NuGet oficial dessa versão. LICENSE.txt do pacote
@@ -46,8 +49,10 @@ Isso não significa distribuir o navegador WebView2 Runtime: ele é requisito
 externo. Também não relicencia outros componentes Microsoft.
 
 WebBrowserInterop.x64.dll e WebBrowserInterop.x86.dll - FileVersion 0.0.0.0,
-fornecidos no pywebview 6.2.1. A cadeia de origem/licença desses binários precisa
-de confirmação específica; não presumir que toda DLL herda BSD do Python wrapper.
+fornecidos no pywebview 6.2.1 e idênticos por hash aos DLLs da wheel oficial.
+Licença BSD-3-Clause do pacote preservada também da wheel oficial. O projeto
+fonte está em interop/mshtml na tag 6.2.1. Origem do artefato confirmada;
+isso não comprova sozinho a composição de todo código Microsoft incorporado.
 
 Microsoft VCRUNTIME140.dll e VCRUNTIME140_1.dll - 14.42.34438.0.
 UCRT e api-ms-win*.dll - 10.0.26100.4654.
@@ -55,6 +60,11 @@ Componentes proprietários Microsoft. A coleta local do build não demonstra por
 si só direitos de redistribuição. Verificar termos de Distributable Code e a
 origem em redistribuível/SDK autorizado. Não são cobertos pela MIT do projeto.
 Referência oficial: https://learn.microsoft.com/en-us/cpp/windows/universal-crt-deployment
+O REDIST oficial do Visual Studio 2022 condiciona a distribuição a uma cópia
+validamente licenciada e aos respectivos termos; não basta possuir os DLLs.
+https://learn.microsoft.com/en-us/visualstudio/releases/2022/redistribution
+Nenhum aceite de termos, instalação de SDK ou alegação de licença do usuário
+foi efetuado nesta auditoria. A pendência Microsoft permanece aberta.
 
 Dependências nativas do CPython: o manifesto oficial v3.13.14 aponta libffi
 3.4.4, bzip2 1.0.8, xz/liblzma 5.2.5, zlib 1.3.1 e mpdecimal 4.0.0.
@@ -66,6 +76,16 @@ Conservar os avisos e condições integrais. Não aplicar a licença de ferramen
 xz GPL a liblzma indiscriminadamente; componentes diferem.
 Referência: https://github.com/python/cpython/blob/v3.13.14/PCbuild/get_externals.bat
 Falta fechar a composição nativa estática de _cffi_backend e demais extensões.
+O _cffi_backend distribuído coincide por SHA-256 com a wheel oficial cffi
+2.1.1 cp313-win_amd64. Texto MIT-0 dessa wheel e sdist incluídos; a origem do
+binário foi confirmada, mas não deve ser confundida com a confirmação de toda
+licença de biblioteca estática incorporada.
+O setup.py da tag oficial v2.1.1 seleciona src/c/libffi_x86_x64 no Windows
+MSVC; o README identifica um snapshot do CPython 2.7 e04e1f253ed8 (não libffi
+3.4.4). O aviso permissivo Red Hat correspondente foi incluído em
+licenses/cffi-2.1.1-libffi-snapshot/LICENSE. Não se atribui uma versão moderna
+inventada a esse snapshot; vincular integralmente build da wheel e fontes
+continua parte da confirmação de composição.
 
 BUILD
 

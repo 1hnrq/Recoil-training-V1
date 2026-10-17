@@ -1,14 +1,22 @@
-# R6-Rebuild
+# Recoil-training-V1
 
 <p align="center"><img src="assets/public/emblema-correntes.png" width="360" alt="Número 6 vermelho, mouse com código, correntes e estrelas"></p>
 
 Aplicativo experimental para Windows com perfis independentes e saída de mouse simulada ou real. Projeto independente, sem vínculo ou aprovação da Ubisoft. Não contém detecção de jogo nem contorno de anticheat. Macros podem contrariar regras de jogos; não há garantia contra punições.
 
+**Recoil-training-V1** é o nome público do projeto no GitHub. O aplicativo
+Windows continua se chamando **R6-Rebuild.exe**; o nome interno, as pastas de
+configuração e todos os controles permanecem R6-Rebuild. Não renomeie o EXE
+nem a pasta `_internal` para seguir o nome do repositório.
+
 > **Publicação pendente:** esta é uma preparação local. A Release v1.0.0 e seu ZIP ainda não estão disponíveis. Consulte [os próximos passos](docs/PROXIMOS_PASSOS_PUBLICACAO.md). O novo candidato usa a logo com correntes no EXE; dependências, perfis e recursos históricos ainda têm pendências de revisão.
 
 ## Instalação
 
-Após a liberação, a seção Releases oferecerá `R6-Rebuild-v1.0.0-Windows-x64.zip`. Os links definitivos serão acrescentados somente quando a Release existir.
+Após a liberação, o repositório `Recoil-training-V1` terá a Release
+**Recoil-training-V1 v1.0.0**, com um ZIP para Windows contendo
+`R6-Rebuild.exe`, `_internal` e os avisos de terceiros. O nome definitivo do
+ZIP, seu SHA-256 e os links reais serão acrescentados quando ele existir.
 
 1. Baixe o ZIP e escolha **Extrair tudo** no Windows. Não execute de dentro do ZIP.
 2. Abra a pasta extraída e dê dois cliques em `R6-Rebuild.exe`.
