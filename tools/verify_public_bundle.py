@@ -57,6 +57,8 @@ def main():
     output={'status':'local candidate; redistribution audit pending','branding':branding,
             'operators':len(list((bundle/'_internal/frontend/assets/operators').glob('*.svg'))),
             'native_files':natives,'analysis_entries':entries,'files_sha256':files}
-    (ROOT/'docs/distribution-correntes.json').write_text(json.dumps(output,indent=2),encoding='utf-8')
+    report_dir=ROOT/'build/reports'
+    report_dir.mkdir(parents=True,exist_ok=True)
+    (report_dir/'distribution.json').write_text(json.dumps(output,indent=2),encoding='utf-8')
     print(json.dumps({'files':len(files),'native_files':len(natives),'branding':branding,'operators':output['operators']}))
 if __name__=='__main__':main()

@@ -14,7 +14,7 @@ O PyInstaller usa o ICO como recurso do EXE. O mesmo arquivo em `_internal`
 é carregado pelo backend WinForms para janela e barra de tarefas. Não foram
 alterados caches do Explorer nem atalhos fixados.
 
-A arte anterior foi preservada em arquivo local ignorado e no histórico,
-mas não está incluída como ícone do novo candidato. Sua presença no histórico
-continua relevante para os direitos de uma futura publicação desse histórico.
+A arte anterior foi preservada somente nos backups locais privados e no
+projeto original, fora do histórico preparado para publicação. Não está
+incluída como ícone do candidato com correntes.
 A nova imagem não é automaticamente coberta pela MIT do código.

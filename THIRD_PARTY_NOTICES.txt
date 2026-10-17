@@ -4,9 +4,8 @@ Aplicativo Windows e nome interno: R6-Rebuild (R6-Rebuild.exe).
 ESTADO: revisão parcial. Este pacote NÃO está liberado para publicação.
 Não confundir a inclusão destes avisos com comprovação de todas as permissões.
 Os textos integrais em licenses/ acompanham este arquivo e devem ser preservados.
-Versões instaladas/fontes: docs/dependencies-installed.json.
-Fontes oficiais e comparação WebView2: docs/dependencies-official-evidence.json.
-Arquivos efetivamente distribuídos: docs/distribution-correntes.json.
+Os inventários brutos e relatórios de build são mantidos em arquivo privado.
+As versões, fontes e limitações relevantes são descritas abaixo.
 
 EXECUÇÃO E COMPONENTES EMPACOTADOS
 
@@ -39,7 +38,7 @@ copyright, condições e disclaimer; não usar nomes para endosso.
 Os metadados setup.py/PKG-INFO dizem MIT, inconsistentemente. Não se presume
 licença dual nem substituição do aviso BSD explícito no código. A divergência
 foi esclarecida pela evidência do código, não por alteração do pacote.
-Hashes e commits em docs/dependencies-provenance-final.json.
+Comparações de hashes e commits preservadas no inventário privado da auditoria.
 
 Microsoft.Web.WebView2 SDK 1.0.3856.49 - os cinco DLLs distribuídos foram
 comparados por SHA-256 com o NuGet oficial dessa versão. LICENSE.txt do pacote

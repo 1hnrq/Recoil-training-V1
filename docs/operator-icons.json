@@ -1,0 +1,388 @@
+{
+  "package": "@zerobertoo/r6operators",
+  "version": "2.0.0",
+  "git_commit": "911a6a05fe44d1b8d19234cea17b0e239eb41bbe",
+  "repository": "https://github.com/zerobertoo/r6operators",
+  "source_url_pattern": "https://cdn.jsdelivr.net/npm/@zerobertoo/r6operators@2.0.0/dist/icons/{id}.svg",
+  "license": "MIT",
+  "license_file": "frontend/assets/operators/LICENSE.txt",
+  "downloaded": "2026-10-14",
+  "modified": false,
+  "files": [
+    {
+      "sha256": "5f5bec2b7a622ba5ae31b2c24b63525ff6a4dc7e2ece99c8986f2415228ce032",
+      "id": "ace",
+      "bytes": 3301
+    },
+    {
+      "sha256": "7f7cd42f6dc168d9d0ee352f0eee14d7d3382986e3662e1f3b2d3ea9c05a1c1e",
+      "id": "alibi",
+      "bytes": 7444
+    },
+    {
+      "sha256": "cb5f13c638f255bd15ffd8a1f140df689e39d4d060cf9efe6eec3a8e3e87ad87",
+      "id": "amaru",
+      "bytes": 2815
+    },
+    {
+      "sha256": "03048f49b49568e447bf846eca0cc01fc47551219d507b29f932e6f931819c93",
+      "id": "aruni",
+      "bytes": 3353
+    },
+    {
+      "sha256": "ab1224ca0522951e1691904986551bb1fd28c65c58d2667e53c1d1ceda31aa0b",
+      "id": "ash",
+      "bytes": 1596
+    },
+    {
+      "sha256": "b9fe57dad6d4fad87e2ff33179444f6d6abe08b561b6bddf297a81519f160064",
+      "id": "azami",
+      "bytes": 23373
+    },
+    {
+      "sha256": "c611f5cf7cec5bc4832e6eae67a749e1c5b619646865a68254a4601b25315c10",
+      "id": "bandit",
+      "bytes": 600
+    },
+    {
+      "sha256": "b106734513dc107f77ea23706bd159e49bb56f433a734c5701600298ee35ecc0",
+      "id": "blackbeard",
+      "bytes": 4265
+    },
+    {
+      "sha256": "81c084ac67b327b76167f8a9f8e49c5dbe4d66cf5e594e07a9087735b6a8712b",
+      "id": "blitz",
+      "bytes": 4430
+    },
+    {
+      "sha256": "cfeceb70fa780e1895028114245e9ca1f330aac1f73ae07e0e490932d42e2d60",
+      "id": "brava",
+      "bytes": 855
+    },
+    {
+      "sha256": "9276770c5e6fde42fbf73989c533a31745934cb9dc3f10d9df8c76c1d017aa46",
+      "id": "buck",
+      "bytes": 3163
+    },
+    {
+      "sha256": "33b2193493d4853688f95e9192053b15a248ad14ffa9b0a024b61ddc21ad983a",
+      "id": "capitao",
+      "bytes": 1245
+    },
+    {
+      "sha256": "f2647012dc51591ff70d1b08b05231c96d2d189940700e8c7a7dc7ae2e32b835",
+      "id": "castle",
+      "bytes": 10551
+    },
+    {
+      "sha256": "f2f7689c84b5fa2fa1acc8a12dd0c77bbb4b8bedd6ed76b737090e9d9b7ab9ef",
+      "id": "caveira",
+      "bytes": 5275
+    },
+    {
+      "sha256": "c177d39a2f77fe6c2b1b305d0dacf48c5e7982e0f2e727b4321d920c978d4a94",
+      "id": "clash",
+      "bytes": 1061
+    },
+    {
+      "sha256": "a0976845e7a471cfd8229f8c72871745f9870b04ffce68a4c60484f83d7573ee",
+      "id": "deimos",
+      "bytes": 7482
+    },
+    {
+      "sha256": "db13355235599c75dc54057ac6fac218874299a64b45674b2a08fc1b677bc80e",
+      "id": "doc",
+      "bytes": 1656
+    },
+    {
+      "sha256": "b5395d7b3eb6382a4a4c5c8a0e24f4013681fb93bb3c87dc36a4de9c367dd084",
+      "id": "dokkaebi",
+      "bytes": 23584
+    },
+    {
+      "sha256": "ecb3713a48166c869e20a390b70b9413b4a7fad69c80928059f35871c5d528bf",
+      "id": "echo",
+      "bytes": 5104
+    },
+    {
+      "sha256": "76834e23cdffee1b57a4bdfa594a050bfbd1e33c7783317040ce6b0a2a5aa278",
+      "id": "ela",
+      "bytes": 5354
+    },
+    {
+      "sha256": "c7784245cf124767b080b932f2159aefbba02b1a3b9662272daffef824129540",
+      "id": "fenrir",
+      "bytes": 1799
+    },
+    {
+      "sha256": "203b5e167b252c91f9f144be3faa7ecafcd6b35a97128346045898b921e48d9a",
+      "id": "finka",
+      "bytes": 1423
+    },
+    {
+      "sha256": "e83bd8daa2e5bf418de0ff169302df02f5e6959b1b7f07b51ebd9f67f00270d4",
+      "id": "flores",
+      "bytes": 8965
+    },
+    {
+      "sha256": "9049f73c4319efe4859bbf8a9c40294da057e56cc98c80fbabcf5cea5d81ab60",
+      "id": "frost",
+      "bytes": 2171
+    },
+    {
+      "sha256": "ed2cabc25099137ca6d09c9844019ea329c58a5d2b4c96fd5cd1c733721ff213",
+      "id": "fuze",
+      "bytes": 4874
+    },
+    {
+      "sha256": "69532b52ea19c2a8c25bf5db3362582123fcd33911431644f1075b84bbbbcde6",
+      "id": "glaz",
+      "bytes": 1303
+    },
+    {
+      "sha256": "cb6398b9db005d0c51ea9b2575baeade8b2b37cc9dc3a4d85beec762f9327f79",
+      "id": "goyo",
+      "bytes": 3969
+    },
+    {
+      "sha256": "a5134f71b6f589b5bebf683d85e445c92c7633ff495cf4579a03326916820b30",
+      "id": "gridlock",
+      "bytes": 2542
+    },
+    {
+      "sha256": "d27e58dd6d1206fe4f79c4f8d1b6e93e12182957c183d65deb9561d348bb032a",
+      "id": "grim",
+      "bytes": 3214
+    },
+    {
+      "sha256": "6b0b5691af36d570aec47ca417a1c4ed295c995368a28d0d47946d8d0372cf74",
+      "id": "hibana",
+      "bytes": 5747
+    },
+    {
+      "sha256": "8f0df3c720c43144cdd84199a6c035381e88358c4a8f2cb88407b5c9d4c0519a",
+      "id": "iana",
+      "bytes": 4982
+    },
+    {
+      "sha256": "170c51eeffd3af24c396726170219442bd903a7e74471a5767ee5e48a19946aa",
+      "id": "iq",
+      "bytes": 3078
+    },
+    {
+      "sha256": "572b796b8d462d6108ba319fd34cb5fdf8ba628690f5dea75db98f75e360bf7a",
+      "id": "jackal",
+      "bytes": 2214
+    },
+    {
+      "sha256": "1739f4c643feaf13cc18df2be4fa2018e51b3c96ec2d69ffe8aa87dd3b9505de",
+      "id": "jager",
+      "bytes": 14527
+    },
+    {
+      "sha256": "ad74a23f0f47a33879e2bced4423c3671c275aa59d6e2a11db949f7236c8b36e",
+      "id": "kaid",
+      "bytes": 1460
+    },
+    {
+      "sha256": "f593eb9938a23e0ee099e170eb47258fd35a7bdb784c41ab2ac48cda0be20beb",
+      "id": "kali",
+      "bytes": 2113
+    },
+    {
+      "sha256": "da520f5ecfde16447f960df8857af0be2211f7a8288384c3d90cae27bd4cb8dd",
+      "id": "kapkan",
+      "bytes": 3870
+    },
+    {
+      "sha256": "1f922f1e9e356526a8a7a3ccd26e64f399f26a35d23956f458cdae9c4c68a4c3",
+      "id": "lesion",
+      "bytes": 1674
+    },
+    {
+      "sha256": "a4cba2dc03c19317f9a8c1a42c4ee557d18dd1803b31c8d5662a7d0c093ce1e2",
+      "id": "lion",
+      "bytes": 3277
+    },
+    {
+      "sha256": "e2978d2c93f673e187df9db2702ae0d7efdf42a7ce80b8f2bda087cfafed202a",
+      "id": "maestro",
+      "bytes": 14455
+    },
+    {
+      "sha256": "efad161a65df2c18dc0544c4f56add579ca72da8c45a31ec381c17124dd96111",
+      "id": "maverick",
+      "bytes": 5772
+    },
+    {
+      "sha256": "67fd9071f41c2a74ede7326844431b9df0c8f638a61037e87d54db64f4945adc",
+      "id": "melusi",
+      "bytes": 3620
+    },
+    {
+      "sha256": "f9c31478e7d8b2ab6ffc8760bbea0ab6542ceb39b87adb7f2a0e15413d8f87be",
+      "id": "mira",
+      "bytes": 1479
+    },
+    {
+      "sha256": "2902525dc3419946b9d17ba5a3a2900d5702ae6b32d4973d8cbfbe2c05922650",
+      "id": "montagne",
+      "bytes": 3538
+    },
+    {
+      "sha256": "2b933646d331f40e1d8bf063131edc7e024b5624dcd91b935064d6201a9d41b6",
+      "id": "mozzie",
+      "bytes": 3364
+    },
+    {
+      "sha256": "52e82b101cf38dec3a40f6eb4dcafaaf45033df0736bb4f52a2c44f90579308e",
+      "id": "mute",
+      "bytes": 5863
+    },
+    {
+      "sha256": "333530f3d6ba16b385670d68f44038c87a4d8ff9988ecf57b88d8e8cbd2b5db1",
+      "id": "nokk",
+      "bytes": 3181
+    },
+    {
+      "sha256": "8f1a831aa69b7c1a2a168ff7f55fe1c84579676dfe2c8f4e9b308d27abe6b9f0",
+      "id": "nomad",
+      "bytes": 1901
+    },
+    {
+      "sha256": "838f9e351e9a3b7083e3ffe9eadf2c95d65d49811b9fb3269c98ddc319157fd9",
+      "id": "oryx",
+      "bytes": 2536
+    },
+    {
+      "sha256": "3de31189bbbcdfa23f4146b858861adfb98fcf3c87429f62753fcaf0dd21c8bd",
+      "id": "osa",
+      "bytes": 4705
+    },
+    {
+      "sha256": "9c1dcc87285996d30c3dd2dc20d3921759365fd7fedcee0322aab16cac63a68b",
+      "id": "pulse",
+      "bytes": 4122
+    },
+    {
+      "sha256": "1b58f634ea3cc048447a4991c5b3c0896fbfe424d25b80a0e0b9685e3bffe790",
+      "id": "ram",
+      "bytes": 4633
+    },
+    {
+      "sha256": "bd21b28519142940c1394d5659cbd7a2360e54b6c187b03ab1e5ad76a7c49842",
+      "id": "rauora",
+      "bytes": 4706
+    },
+    {
+      "sha256": "1817494e7a785fdc465c351bb49ca5018c3104b9caa8fd64a1221628ced88fed",
+      "id": "rook",
+      "bytes": 2054
+    },
+    {
+      "sha256": "ed99e9cd291980cf8d26530def2b7b45af1be93f1a8375f7c74109089c405eee",
+      "id": "sens",
+      "bytes": 1011
+    },
+    {
+      "sha256": "7a8a8fca4a1e607c3c6ffd09837ea7da455c6b026f0246a13030210b3b16a1ad",
+      "id": "sentry",
+      "bytes": 1807
+    },
+    {
+      "sha256": "67893cce5eecec2ad7119adce0bfacd330f191d46f65731be0e297d1bb260645",
+      "id": "skopos",
+      "bytes": 5474
+    },
+    {
+      "sha256": "9f946aafc1ef7ea228d7b5f98e491689dfcbc8c2e80fb35e86aafd360f607f03",
+      "id": "sledge",
+      "bytes": 1447
+    },
+    {
+      "sha256": "e38ec63b9631f8dab815df734442c9fb2b43663644becb8e68accf1bf33006d8",
+      "id": "smoke",
+      "bytes": 9405
+    },
+    {
+      "sha256": "db4d13d8890c3327e482e25d35ec644ec368f84a820d90309fb938a722787811",
+      "id": "solis",
+      "bytes": 1848
+    },
+    {
+      "sha256": "8079c45f6792fe15304e96e0ff28205fdfd7d9fae1e7200ffc277abebe368e2f",
+      "id": "striker",
+      "bytes": 1991
+    },
+    {
+      "sha256": "f42e567dc3e325a15a66239cb1651762f229fcac991b9ba8fd181be07e69bef6",
+      "id": "tachanka",
+      "bytes": 5388
+    },
+    {
+      "sha256": "6a58c97b996ffb4c9890369acaefbbfde2af72ad34cda1c064aa3c08ee3fbfa1",
+      "id": "thatcher",
+      "bytes": 14940
+    },
+    {
+      "sha256": "c7215a6d158f639d21ccfcabb2a4ba7ed46bc29dd753e29989f7c86958f49bb5",
+      "id": "thermite",
+      "bytes": 2346
+    },
+    {
+      "sha256": "d8c969deab22fb379a19ee488e05a65078ba18a5330ed833df1db17283bd63a3",
+      "id": "thorn",
+      "bytes": 10799
+    },
+    {
+      "sha256": "b990735ecd88c3c9067ca1eb9c0792d584f53475ffb0f568ea07da743221c5ba",
+      "id": "thunderbird",
+      "bytes": 1162
+    },
+    {
+      "sha256": "f6f7a973b9f4f4be5872e52cb9bba013792d47637d9f62a657e68d207bc6dc28",
+      "id": "tubarao",
+      "bytes": 1587
+    },
+    {
+      "sha256": "f3a8a6b056fdae05dbfa08ca3de75b285cc040d88368eebbdd157b821ae19e48",
+      "id": "twitch",
+      "bytes": 6224
+    },
+    {
+      "sha256": "068e853ce03f553b00479f7e3ef5f28a1e5996fb93bca3421b70b9208109377b",
+      "id": "valkyrie",
+      "bytes": 3000
+    },
+    {
+      "sha256": "bd66d826790cd60eb64c5d8b83ae21b54ad723dffe9dd8df6c301ec4cb9fc5cc",
+      "id": "vigil",
+      "bytes": 1599
+    },
+    {
+      "sha256": "06aed2e0cfa011b408d93e74764c5c95095d6ee4241f7e7876d731f1330dcec0",
+      "id": "wamai",
+      "bytes": 6053
+    },
+    {
+      "sha256": "9126a0bddd370532cdd86ff18a0c62f26e8c9e33a693f1dbf8cc970f1c204140",
+      "id": "warden",
+      "bytes": 810
+    },
+    {
+      "sha256": "8b20303554bcd4dacf5b40add7468510be34f4ee5353430a6bff7bc330ef6485",
+      "id": "ying",
+      "bytes": 12042
+    },
+    {
+      "sha256": "aae76360423398b6bf3979cd0205508fcd59fa76a41a6d32b8d15fbce54dd8b5",
+      "id": "zero",
+      "bytes": 2549
+    },
+    {
+      "sha256": "fe407b054e203156c56bd514128c8b97514c05abc9cee5dc2d9d61804868521d",
+      "id": "zofia",
+      "bytes": 5212
+    }
+  ]
+}

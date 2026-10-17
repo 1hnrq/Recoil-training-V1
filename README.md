@@ -15,8 +15,10 @@ nem a pasta `_internal` para seguir o nome do repositório.
 
 Após a liberação, o repositório `Recoil-training-V1` terá a Release
 **Recoil-training-V1 v1.0.0**, com um ZIP para Windows contendo
-`R6-Rebuild.exe`, `_internal` e os avisos de terceiros. O nome definitivo do
-ZIP, seu SHA-256 e os links reais serão acrescentados quando ele existir.
+`R6-Rebuild.exe`, `_internal` e os avisos de terceiros. O arquivo será
+`Recoil-training-V1-v1.0.0-Windows-x64.zip`. Há um candidato local aguardando
+aprovação; nenhum download público está disponível. Os links e o SHA-256
+definitivo serão publicados somente depois da aprovação do pacote final.
 
 1. Baixe o ZIP e escolha **Extrair tudo** no Windows. Não execute de dentro do ZIP.
 2. Abra a pasta extraída e dê dois cliques em `R6-Rebuild.exe`.
@@ -76,6 +78,20 @@ Não há garantia de tempo real rígido, compatibilidade com jogos ou equivalên
 
 A MIT da raiz aplica-se somente ao código e documentação próprios, conforme [LICENCIAMENTO](docs/LICENCIAMENTO.md). Recursos, marcas, perfis e dependências não são automaticamente relicenciados.
 
-A imagem com correntes foi fornecida pelo responsável para apresentação pública e agora também é o ícone do novo candidato Windows. As distribuições antigas permanecem intactas localmente. A arte antiga ainda existe no histórico Git preservado: sua publicação exige decisão separada. A mudança visual não certifica direitos sobre a nova imagem, os perfis ou outros recursos.
+A imagem com correntes foi fornecida pelo responsável para apresentação pública e também é o ícone do candidato Windows. A arte antiga e os relatórios internos foram excluídos do histórico preparado para publicação, mantendo backups locais privados. A mudança visual não certifica direitos sobre a nova imagem, os perfis ou outros recursos.
 
 Os avisos reunidos estão em [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt) e `licenses/`. Leia as pendências antes de redistribuir.
+
+## Código-fonte e desenvolvimento
+
+O código Python fica em `src/r6_rebuild`, a interface em `frontend`, os perfis
+em `data` e os testes em `tests`. Para desenvolver, crie uma `.venv` com Python
+3.13 e instale `requirements-build.txt` somente após revisar as dependências.
+Execute `python -m unittest discover -s tests` e `npm test` (Node necessário
+apenas para testes JavaScript). Para os testes de ponte, configure
+`R6_TEST_PYTHON` com o caminho do Python dessa `.venv`.
+
+`tools/build_windows.py` cria distribuições separadas e exige a `.venv` local;
+consulte `--help` para destinos de build e relatório. Artefatos em `build/`,
+`dist/` e `publication-private/` nunca devem ser enviados ao repositório.
+O checklist de publicação está em [Próximos passos](docs/PROXIMOS_PASSOS_PUBLICACAO.md).
